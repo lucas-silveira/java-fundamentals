@@ -15,11 +15,11 @@ public class For {
             soma += num;
         }
 
-        input.close();
-
         media = (double) soma/10;
 
         System.out.printf("Soma dos números digitados: %d\n", soma);
         System.out.printf("Média dos números digitados: %.2f\n", media);
+
+        input.close();
     }
 }

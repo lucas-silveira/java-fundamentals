@@ -14,7 +14,6 @@ public class Switchcase {
 
         System.out.println("Salário:");
         sal = input.nextDouble();
-        input.close();
 
         switch (cod) {
             case 1:
@@ -46,5 +45,7 @@ public class Switchcase {
         System.out.printf("Aumento: %.2f\n", aumento);
         System.out.printf("Novo salário: %.2f\n", novoSal);
         System.out.println("Cargo: " + cargo);
+
+        input.close();
     }
 }

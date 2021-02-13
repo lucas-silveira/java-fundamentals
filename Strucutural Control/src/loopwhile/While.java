@@ -17,8 +17,6 @@ public class While {
             num = input.nextInt();
         }
 
-        input.close();
-
         if (cont != 0) {
             media = (double) soma/cont;
             System.out.println("Soma dos números digitados: " + soma);
@@ -26,5 +24,7 @@ public class While {
         }
         else
             System.out.println("Não houve processamento");
+
+        input.close();
     }
 }

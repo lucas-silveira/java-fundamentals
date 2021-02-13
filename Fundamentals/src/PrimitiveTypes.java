@@ -1,4 +1,4 @@
-public class Types {
+public class PrimitiveTypes {
     public static void main(String[] args) {
         // boolean
         boolean check;

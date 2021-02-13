@@ -6,5 +6,6 @@ public class ProductTest {
         product.discount = 0.1;
 
         System.out.println(product.name); // John
+        System.out.println(product.priceWithDiscount()); // 3921.2
     }
 }

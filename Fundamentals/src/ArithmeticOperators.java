@@ -5,6 +5,7 @@ public class ArithmeticOperators {
 
         sum = 1+1; // 2
         sum++; // 3
+        ++sum; // 4
         sub = 2-1; // 1
         sub -= 1; // 0
         multiply = 2*2; // 4

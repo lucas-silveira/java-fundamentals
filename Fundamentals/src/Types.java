@@ -23,7 +23,7 @@ public class Types {
 
         // long (64 bits)
         long aLongNumber;
-        aLongNumber = 1000000000;
+        aLongNumber = 1000000000L;
 
         // float (32 bits)
         float aFloatNumber;
@@ -32,5 +32,8 @@ public class Types {
         // double (64 bits)
         double aDoubleNumber;
         aDoubleNumber = 1.44;
+
+        // using a underline to separete greatness
+        long aNumber = 3_200_000L;
     }
 }

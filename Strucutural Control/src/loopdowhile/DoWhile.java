@@ -17,5 +17,7 @@ public class DoWhile {
             System.out.println("Deseja continuar (s/n)?");
             resp = input.next().charAt(0);
         } while (resp == 's');
+
+        input.close();
     }
 }

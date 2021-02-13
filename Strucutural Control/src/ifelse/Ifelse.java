@@ -15,6 +15,7 @@ class Ifelse {
 
         System.out.println("Nota 3:");
         n3 = input.nextDouble();
+        input.close();
 
         media = (n1+n2+n3) / 3;
         System.out.println("Média: " + media);

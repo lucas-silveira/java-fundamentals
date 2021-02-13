@@ -14,6 +14,7 @@ public class Switchcase {
 
         System.out.println("Salário:");
         sal = input.nextDouble();
+        input.close();
 
         switch (cod) {
             case 1:

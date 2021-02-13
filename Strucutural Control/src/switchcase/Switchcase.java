@@ -33,9 +33,13 @@ public class Switchcase {
                 cargo = "Gerente";
                 break;
             case 5:
+            case 6:
                 aumento = 0;
                 cargo = "Diretor";
                 break;
+            default:
+                aumento = 0;
+                cargo = "Desconhecido";
         }
 
         aumento = sal*aumento;

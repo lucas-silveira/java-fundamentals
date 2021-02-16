@@ -2,7 +2,7 @@ package list;
 
 import java.util.ArrayList;
 
-public class ArrayListClass {
+public class ListClasses {
     public static void main(String[] args) {
         // Não existe uma classe com o nome List, e sim uma interface
         // ArrayList é uma classe que implementa a interface List

@@ -1,4 +1,4 @@
-# HashSetClass
+# Collections
 Diferente do *array*, a *collection* não possui um tamanho fixo, embora isso seja possível.<br />
 A *collection* é heterogênea, isto é, ela pode agregar valores de diferentes tipos.<br />
 Não podemos adicionar tipos primitivos em *collections*, apenas objetos.<br />

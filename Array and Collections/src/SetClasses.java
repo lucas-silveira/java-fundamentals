@@ -2,7 +2,7 @@ import java.util.HashSet;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class HashSetClass {
+public class SetClasses {
     public static void main(String[] args) {
         // Não existe uma classe com o nome Set, e sim uma interface
         // HashSet é uma classe que implementa a interface Set

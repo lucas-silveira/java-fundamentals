@@ -7,7 +7,7 @@ public class HashSetClass {
         // Não existe uma classe com o nome Set, e sim uma interface
         // HashSet é uma classe que implementa a interface Set
         // É recomendado evitar conjuntos heterogêneos
-        HashSet aVariedSet = new HashSet<>();
+        HashSet aVariedSet = new HashSet();
         aVariedSet.add(1.2); // double -> Double
         aVariedSet.add(true); // boolean -> Boolean
         aVariedSet.add("Anything");

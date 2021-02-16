@@ -4,7 +4,7 @@ implementado pela classe, pois por padrão ele possui um comportamento semelhant
 ao operador lógico `==`. O retorno do método `equals` é um valor *booleano*.
 
 # Hashcode
-O Hashcode é um código de identificação que todo objeto em Java possui. Ele é formado
+O Hashcode é um código de identificação para objetos Java. Ele é formado
 a partir dos atributos do objeto.<br />
 Existe o método de mesmo nome cujo retorno é um valor
 *inteiro*.<br />

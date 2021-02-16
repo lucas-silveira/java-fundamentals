@@ -14,7 +14,7 @@ Não podemos adicionar tipos primitivos em *collections*, apenas objetos.<br />
 - Aceita repetição de valores
 
 ### Queue
-- Implementa e estrutura de fila
+- Implementa a estrutura de fila
 - First in, First out (FIFO)
 
 ### Stack

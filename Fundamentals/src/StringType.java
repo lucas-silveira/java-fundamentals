@@ -27,7 +27,7 @@ public class StringType {
         System.out.println(y.startsWith("HE")); // true
         System.out.println(y.endsWith("!")); // true
 
-        // Devemos sempre usar o método .equals() quando formos comparar duas stirngs
+        // Devemos sempre usar o método .equals() quando formos comparar duas strings
 
         System.out.println(y.equals("Hello guy!")); // false
         System.out.println(y.equalsIgnoreCase("Hello guy!")); // true

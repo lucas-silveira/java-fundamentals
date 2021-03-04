@@ -1,4 +1,5 @@
 import java.util.function.Function;
+import java.util.function.Predicate;
 
 public class Composition {
     public static void main(String[] args) {
@@ -15,5 +16,11 @@ public class Composition {
                 .andThen(exclamation)
                 .apply(32)
         ); // O resultado é: Par!
+
+        Predicate<Integer> isEven = num -> num % 2 == 0;
+        Predicate<Integer> hasThreeDigits = num -> num.toString().length() == 3;
+
+        System.out.println(isEven.and(hasThreeDigits).test(124)); // true
+        System.out.println(isEven.and(hasThreeDigits).negate().test(124)); // false
     }
 }

@@ -27,7 +27,7 @@ public class StackClasses {
         System.out.println(books.peek()); // O Hobbit
         System.out.println(books.element()); // O Hobbit
         System.out.println(books.poll()); // O Hobbit | ou pollFirst()
-        System.out.println(books.pop()); // Dom Quixote | | ou removeFirst()
+        System.out.println(books.pop()); // Dom Quixote | ou removeFirst()
         System.out.println(books.remove()); // O Pequeno Príncipe | ou removeFirst()
         System.out.println(books); // []
 

@@ -26,7 +26,6 @@ public class MapClasses {
         System.out.println(users.entrySet()); // [1=Steve, 2=Mary, 3=Alice]
         System.out.println(users.containsKey(1)); // true
         System.out.println(users.containsValue("Steve")); // true
-        System.out.println(users.get(1)); // Steve
         System.out.println(users.remove(4)); // Carl
         System.out.println(users.remove(3, "Kane")); // Remover a partir da chave e valor.
 

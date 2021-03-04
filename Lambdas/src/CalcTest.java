@@ -1,7 +1,4 @@
-import java.util.function.BiFunction;
-import java.util.function.BinaryOperator;
-import java.util.function.DoubleBinaryOperator;
-import java.util.function.DoubleFunction;
+import java.util.function.*;
 
 public class CalcTest {
     public static void main(String[] args) {
@@ -16,6 +13,17 @@ public class CalcTest {
         System.out.println(calc.apply(2, 2)); // 4.0
 
         // Interfaces Default
+        Supplier<String> sayHello = () -> "Hello World!";
+        System.out.println(sayHello.get()); // Hello World!
+
+        Consumer<String> sayHelloFor = (name) -> {
+            System.out.println("Hello " + name + "!");
+        };
+        sayHelloFor.accept("John"); // Hello John!
+
+        UnaryOperator<Double> unaryOperator = x -> x;
+        System.out.println(unaryOperator.apply(2.0)); // 2.0
+
         DoubleFunction calc2 = x -> 2 * x;
         System.out.println(calc2.apply(2)); // 4.0
 

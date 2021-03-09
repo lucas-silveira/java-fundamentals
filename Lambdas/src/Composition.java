@@ -8,6 +8,7 @@ public class Composition {
 
         Function<String, String> theResultIs = value -> "O resultado é: " + value;
         System.out.println(evenOrOdd.andThen(theResultIs).apply(32)); // O resultado é: Par
+        System.out.println(theResultIs.compose(evenOrOdd).apply(32)); // O resultado é: Par
 
         Function<String, String> exclamation = value -> value + "!";
         System.out.println(

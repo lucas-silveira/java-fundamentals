@@ -1,13 +1,15 @@
+package IntermediariesOps;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.UnaryOperator;
 
-public class IntermediariesOps {
+public class Map {
     public static void main(String[] args) {
         Consumer<String> print = System.out::print;
 
-        // Map
+        // IntermediariesOps.Map
         List<String> brands = Arrays.asList("BMW ", "Audi ", "Ferrari ");
 
         brands.stream().map(brand -> brand.toUpperCase()).forEach(print);
@@ -19,7 +21,7 @@ public class IntermediariesOps {
         UnaryOperator<String> firstLetter = word -> word.charAt(0) + "";
         UnaryOperator<String> addExclamation = word -> word + "! ";
 
-        // Map with composition
+        // IntermediariesOps.Map with composition
         brands.stream().map(toUppperCase).forEach(print);
 
         System.out.println("");

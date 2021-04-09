@@ -1,5 +1,3 @@
-package IntermediariesOps;
-
 public class Student {
   private String name;
   private double rating;

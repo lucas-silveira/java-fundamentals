@@ -26,4 +26,8 @@ public class Student {
   public boolean isApproved() {
     return this.getRating() >= 7;
   }
+
+  public String toString() {
+    return "name: " + this.getName() + "\nnota: " + this.getRating();
+  }
 }
